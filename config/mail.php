@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'eng.mhmoud.alkahlout@gmail.com',
-        'name' => 'Mhmoud H. Alkahlout',
+        'address' => 'nguyendohoangdinh@gmail.com',
+        'name' => 'nguyendohoangdinh',
     ],
 
     /*
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('MAIL_USERNAME','83807ba760158b'),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('MAIL_PASSWORD','247dadb8cb1e78'),
 
     /*
     |--------------------------------------------------------------------------
